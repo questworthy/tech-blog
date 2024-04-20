@@ -4,6 +4,9 @@
 	// Supports weights 100-900
 	import '@fontsource-variable/inter';
 
+	// Supports weights 300-700
+	import '@fontsource-variable/comfortaa';
+
 	import Nav from '$lib/components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 
