@@ -1,4 +1,6 @@
 <script>
+	import logo from '$lib/assets/logo.png';
+
 	// get current page url
 	import { page } from '$app/stores';
 	$: currentURL = $page.url.pathname.split('/').pop() || $page.url.pathname;
@@ -10,7 +12,7 @@
 </script>
 
 <div class="flex justify-between items-center h-16 my-8">
-	<img loading="lazy" src="quest-logo.png" alt="Quest Alliance Logo" class="h-16" />
+	<img loading="lazy" src={logo} alt="Quest Alliance Logo" class="h-16" />
 	<nav class="flex justify-center m-0">
 		{#each links as link}
 			{#if link === 'home'}

@@ -6,7 +6,6 @@ export default {
 			fontFamily: {
 				inter: "'Inter Variable', sans-serif "
 			},
-
 			colors: {
 				darkest: '#29292c',
 				darker: '#27272a',
